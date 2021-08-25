@@ -22,4 +22,15 @@ if(array.includes(4)) {
 const array = [1,2,3,4,5,6];
 if(array.indexOf(4) > -1 ) {
     console.log("true 4 was found in the array") // true 4 was found in the array
-    }
+    };
+
+
+// indexOf() vs includes()
+const array =[10, 20, 30, 40, 50, 60];
+const arrayIndexOf = array.indexOf(50);
+console.log(arrayIndexOf);
+
+const arrayIncludes1 = array.includes(40);
+console.log(arrayIncludes1);
+const arrayIncludes2 = array.includes(45);
+console.log(arrayIncludes2);
